@@ -4,10 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-h4 {
-    font-family: 'Fondamento', cursive;
-    font-family: 'Sacramento', cursive;
-}
+
 /* Acomoda mal el boton y el buscador */
 
 /* .wrap {
@@ -165,3 +162,18 @@ h2 {
 .boton:hover {
 	opacity: 0.3;
 }
+h3 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 20px;
+	text-align: center;
+	font-family: 'Sacramento', cursive;
+}
+.tituloDos {
+	font-family: 'Hind', sans-serif;
+	color: lime;
+	font-size: 20px;
+	font-weight: 20px;
+} 
+	
+	
