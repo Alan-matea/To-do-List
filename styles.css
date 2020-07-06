@@ -4,6 +4,85 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* Acomoda mal el boton y el buscador */
+
+/* .wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+} */
+
+/* Crea una especie de Head que no me sirve */
+
+/* .principal {
+	background: #F44336;
+	border-top: 20px solid #D32F2F;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+} */
+
+/* no hace nada */
+
+/* .principal .formulario {
+	color: #ffffff;
+	text-align: center;
+} */
+
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+    padding: 10px;
+    padding: 1px 10px;
+    outline: 0px;
+    border: 1px;
+    height: 50px;
+    border-radius: 30px;
+    width: 250px;
+    font-size: 20px;
+}
+
+.principal .formulario input[type=text].error {
+	border: 2px solid #D32F2F;
+	color: red;
+} 
+
+/* Esto no me gusto como le queda */
+
+/* .principal .formulario .boton {
+	background: none;
+	border: 1px solid #D32F2F;
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+} */
+
+/* No le queda mal pero bue, mejor no se lo pongo */
+
+/* .principal .formulario .boton:hover {
+	border: 0.5px solid #fff;
+} */
+
+/* - Tareas - */
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #424242;
+}
+
+.tareas .lista li a {
+	color: #c2c2c2;
+	display: block;
+	padding: 15px 0;
+	text-decoration: none;
+}
+
+.tareas .lista li a:hover {
+    text-decoration: line-through;
+    color: #D32F2F;
+}
 
 #logo-blanco {
 	position: relative;
