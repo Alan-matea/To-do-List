@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Acomoda mal el boton y el buscador */
 
 /* .wrap {
@@ -40,6 +41,23 @@
     border-radius: 30px;
     width: 250px;
     font-size: 20px;
+}
+
+.contenedor {
+	position: relative;
+	z-index: 2;
+}
+
+#particles-js {
+	margin: -10px;
+	height: 243px;
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+.a {
+	margin: -10px;
 }
 
 .principal .formulario input[type=text].error {
